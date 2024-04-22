@@ -21,11 +21,8 @@ body {
   background-image: linear-gradient(to right, #022f40, #38aecc);
 }
 
-.filtro-gris {
+.hover\:filter-gris:hover {
   filter: grayscale(100%);
   transition: filter 1s ease; /* Transición de medio segundo */
-}
-
-.hover\:filter-none:hover {
-  filter: none;
+  transform: scale(1.02);
 }
