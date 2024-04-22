@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-color {
+  @apply text-transparent bg-clip-text inline-block;
+  background-image: linear-gradient(to right, #022f40, #38aecc);
+}
+
+.secundary-color {
+  @apply text-transparent bg-clip-text inline-block;
+  background-image: linear-gradient(to right, #312e2e, #536063);
+}
+
+body {
+  background-color: black;
+}
+
+.bg-primary-color {
+  @apply inline-block;
+  background-image: linear-gradient(to right, #022f40, #38aecc);
+}
+
+.filtro-gris {
+  filter: grayscale(100%);
+  transition: filter 1s ease; /* Transición de medio segundo */
+}
+
+.hover\:filter-none:hover {
+  filter: none;
+}
