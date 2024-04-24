@@ -21,8 +21,21 @@ body {
   background-image: linear-gradient(to right, #022f40, #38aecc);
 }
 
-.hover\:filter-gris:hover {
-  filter: grayscale(100%);
-  transition: filter 1s ease; /* Transición de medio segundo */
-  transform: scale(1.02);
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.embla__image {
+  width: 805px; /* Ancho deseado */
+  height: 400px; /* Alto deseado */
+  object-fit: cover; /* Para que las imágenes mantengan su relación de aspecto y se recorten si es necesario */
+  border-radius: 10px; /* Para tener un marco con esquinas redondeadas */
+  filter: saturate(120%) brightness(110%); /* Aplicar filtro de saturación y brillo */
 }

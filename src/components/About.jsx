@@ -1,4 +1,4 @@
-import aboutImg from "../assets/about.jpg";
+import Carrousel from "./Carrousel";
 
 const About = () => {
   return (
@@ -15,12 +15,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <img
-          src={aboutImg}
-          width={500}
-          height={500}
-          className="mx-auto py-8 md:py-0 md:rounded-3xl  hover:filter-gris "
-        />
+        <Carrousel />
       </div>
     </div>
   );
