@@ -12,32 +12,32 @@ const Skills = () => {
         Tech <br /> Skills
       </h2>
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] hover:scale-105 cursor-pointer">
-        <img src={html} />
+        <img src={html} className="skill-icon" />
 
         <p className="mt-2 secundary-color">HTML</p>
       </div>
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] hover:scale-105 cursor-pointer">
-        <img src={css} />
+        <img src={css} className="skill-icon" />
         <p className="mt-2 secundary-color">CSS</p>
       </div>
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] hover:scale-105 cursor-pointer">
-        <img src={js} />
+        <img src={js} className="skill-icon" />
         <p className="mt-2 secundary-color">JavaScript</p>
       </div>
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] hover:scale-105 cursor-pointer">
-        <img src={react} />
+        <img src={react} className="skill-icon" />
         <p className="mt-2 secundary-color">React</p>
       </div>
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] hover:scale-105 cursor-pointer">
-        <img src={spring} />
+        <img src={spring} className="skill-icon" />
         <p className="mt-2 secundary-color">Spring Boot</p>
       </div>
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] hover:scale-105 cursor-pointer">
-        <img src={git} />
+        <img src={git} className="skill-icon" />
         <p className="mt-2 secundary-color">GIT</p>
       </div>
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] hover:scale-105 cursor-pointer">
-        <img src={sql} />
+        <img src={sql} className="skill-icon" />
         <p className="mt-2 secundary-color">MySQL</p>
       </div>
     </div>

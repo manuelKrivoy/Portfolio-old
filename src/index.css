@@ -49,3 +49,17 @@ body {
   cursor: pointer;
   transform: scale(1.1);
 }
+
+.skill-icon {
+  filter: grayscale(100%); /* Comienza en gris */
+  animation: colorize 2s infinite alternate;
+}
+
+@keyframes colorize {
+  0% {
+    filter: grayscale(100%); /* En gris */
+  }
+  100% {
+    filter: grayscale(0%); /* En color */
+  }
+}
