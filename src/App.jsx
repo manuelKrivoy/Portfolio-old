@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import { RxPinTop } from "react-icons/rx";
+import { LanguageProvider } from "./components/context/LanguageContext";
 
 export default function App() {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -34,7 +35,7 @@ export default function App() {
   };
 
   return (
-    <>
+    <LanguageProvider>
       <Navbar />
       <Hero />
       <Skills />
@@ -51,6 +52,6 @@ export default function App() {
           <RxPinTop />
         </button>
       )}
-    </>
+    </LanguageProvider>
   );
 }

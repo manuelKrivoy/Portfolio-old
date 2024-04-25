@@ -1,8 +1,11 @@
+import { useLanguage } from "./context/LanguageContext";
+
 const Contact = () => {
+  const { getMessage } = useLanguage();
   return (
     <div className="max-w-[1200px] mx-auto bg-black sm:py-20 p-5" id="contacto">
       <div className="text-center">
-        <h2 className="text-4xl font-bold leading-tight primary-color ">Escribime</h2>
+        <h2 className="text-4xl font-bold leading-tight primary-color ">{getMessage("writeme")}</h2>
       </div>
       <div className="max-w-[800px] mx-auto">
         <div className="mt-6 bg-[#161616] rounded-xl">
@@ -19,7 +22,7 @@ const Contact = () => {
                     name="name"
                     id=""
                     required
-                    placeholder="Tu nombre"
+                    placeholder={getMessage("name")}
                     className="bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border border-gray-700 rounded-md focus:outline-none focus:border-blue-400"
                   />
                 </div>
@@ -29,7 +32,7 @@ const Contact = () => {
                     name="email"
                     id=""
                     required
-                    placeholder="Tu email"
+                    placeholder={getMessage("email")}
                     className="bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border border-gray-700 rounded-md focus:outline-none focus:border-blue-400"
                   />
                 </div>
@@ -39,7 +42,7 @@ const Contact = () => {
                       name="message"
                       required
                       id=""
-                      placeholder="Escibe tu mensaje"
+                      placeholder={getMessage("message")}
                       className="bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border border-gray-700 rounded-md focus:outline-none focus:border-blue-400"
                     />
                   </div>
@@ -49,7 +52,7 @@ const Contact = () => {
                     type="submit"
                     className="text-xl w-full p-4 mt-2 font-semibold text-white bg-primary-color rounded-md hover: transition-transform duration-300 hover:scale-105"
                   >
-                    Enviar
+                    {getMessage("submit")}
                   </button>
                 </div>
               </div>

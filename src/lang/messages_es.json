@@ -1,0 +1,26 @@
+{
+  "about": "Sobre mí",
+  "projects": "Proyectos",
+  "contact": "Contacto",
+
+  "iam": "Soy",
+  "heroDesc": "Estudiante avanzado en sistemas y programador autodidacta.",
+  "cvButton": "Descargar CV",
+  "computerTechnician": "Computer Technician",
+  "webDeveloper": "Web Developer",
+  "itStudent": "IT Student",
+
+  "aboutMeDesc": "Ser entusiasta por la tecnología desde pequeño me llevó a siempre estar aprendiendo herramientas nuevas. Empecé a programar en el secundario, del cual egresé como Técnico En Informática. Actualmente, con 22 años, estoy cursando tercer año en una Licenciatura en IT y en mis tiempos libres aprendiendo, ya sea de forma autodidacta o a través de cursos, las últimas innovaciones tecnológicas.",
+
+  "projectsDesc": "Algunos de mis proyectos:",
+  "p1": "Ecommerce Responsive",
+  "p2": "API Rest Facturacion",
+  "p3": "Turnera Médica",
+  "p4": "Página de tareas",
+
+  "writeme": "Escribime",
+  "name": "Tu nombre",
+  "email": "Tu email",
+  "message": "Tu mensaje",
+  "submit": "Enviar"
+}

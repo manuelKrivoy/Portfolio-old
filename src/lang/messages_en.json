@@ -1,0 +1,26 @@
+{
+  "about": "About Me",
+  "projects": "Projects",
+  "contact": "Contact",
+
+  "iam": "I am",
+  "heroDesc": "Advanced computer systems student and self-taught programmer.",
+  "cvButton": "Download CV",
+  "computerTechnician": "Computer Technician",
+  "webDeveloper": "Web Developer",
+  "itStudent": "IT Student",
+
+  "aboutMeDesc": "Being enthusiastic about technology from a young age has always driven me to continuously learn new tools. I started programming in high school, from which I graduated as a Computer Technician. Currently, at 22 years old, I am in my third year of studying for a degree in IT, and in my free time, I am constantly learning, whether it be through self-teaching or taking courses, about the latest technological innovations.",
+
+  "projectsDesc": "Some of my projects",
+  "p1": "Responsive Ecommerce ",
+  "p2": "Billing REST API",
+  "p3": "Medical Appointment System",
+  "p4": "Task Page",
+
+  "writeme": "Write Me",
+  "name": "Your name",
+  "email": "Your email",
+  "message": "Your message",
+  "submit": "Submit"
+}
