@@ -28,9 +28,9 @@ const Skills = () => {
         <img src={react} className="skill-icon" />
         <p className="mt-2 secundary-color">React</p>
       </div>
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] hover:scale-105 cursor-pointer">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] hover:scale-105 cursor-pointer ">
         <img src={spring} className="skill-icon" />
-        <p className="mt-2 secundary-color">Spring Boot</p>
+        <p className="mt-2 secundary-color ">Spring </p>
       </div>
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] hover:scale-105 cursor-pointer">
         <img src={git} className="skill-icon" />
