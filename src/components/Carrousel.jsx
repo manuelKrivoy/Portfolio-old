@@ -1,5 +1,5 @@
 import aboutImg from "../assets/about.jpg";
-import aboutImg2 from "../assets/about2.jpg";
+import aboutImg2 from "../assets/about2Up.jpeg";
 import aboutImg3 from "../assets/about3.jpg";
 
 import useEmblaCarousel from "embla-carousel-react";
