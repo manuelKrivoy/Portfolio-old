@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="p-10">
             <form
               action="
-              https://getform.io/f/nadoknjb"
+              https://getform.io/f/bkkgzexb"
               method="POST"
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
