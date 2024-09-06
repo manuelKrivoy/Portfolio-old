@@ -1,6 +1,7 @@
 import { useLanguage } from "./context/LanguageContext";
 
 const Contact = () => {
+  //Uso contexto
   const { getMessage } = useLanguage();
   return (
     <div className="max-w-[1200px] mx-auto bg-black sm:py-20 p-5" id="contacto">
